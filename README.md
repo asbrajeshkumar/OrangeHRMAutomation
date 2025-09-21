@@ -1,4 +1,4 @@
-**The UI Automation for OrangeHRM Demo was implemented using the following approach and architecture**
+# The UI Automation for OrangeHRM Demo was implemented using the following approach and architecture
 
 Platform: OrangeHRM Demo (https://opensource-demo.orangehrmlive.com/)
 
@@ -13,7 +13,7 @@ This framework automates the **OrangeHRM Open Source Demo** application using:
 - **External JSON Object Repository** for locators
 - **Config-driven execution** (browser, headless mode, etc.)
 
-**UI Automation Flow**-----------------------------------------------------------------------
+## UI Automation Flow
 
 The following customer journey was automated:
 
@@ -28,7 +28,7 @@ The following customer journey was automated:
 5. Screenshots are captured on failure, and explicit waits ensure robust element handling.
 
 
-**Project Structure**----------------------------------------------------------------------------
+## Project Structure
 
 src/
 ├─ main/java/framework/
@@ -70,14 +70,14 @@ logs/                     # Execution logs
 pom.xml                   # Maven dependencies & Surefire (suite binding)
 
 
-**Prerequisites**--------------------------------------------------------------------------------
+## Prerequisites
 - Java 11+ (project supports Java 21)
 - Maven 
 - Chrome / Edge installed
 - Internet access (for WebDriverManager to resolve drivers)
 
 
-**Configuration**---------------------------------------------------------------------------------
+## Configuration
 
 Update `src/main/resources/config.properties`:
 ```properties
@@ -88,7 +88,7 @@ username=Admin
 password=admin123
 ```
 
-**How to Run**
+## How to Run
 ### From IDE
 - Open `testng.xml` → **Run as TestNG Suite**
 - Or run individual classes under `src/test/java/script/`
@@ -110,7 +110,7 @@ mvn clean test -Dheadless=false
 ```
 
 
-**Features Implemented**------------------------------------------------------------------------
+## Features Implemented
 
 1. Tools: Selenium, TestNG, log4j, ExtentReports
 
