@@ -1,0 +1,17 @@
+{
+"btnAdminTab":{"type":"xpath","value":"//span[contains(@class, 'main-menu-item') and text()='Admin']","wait":10},
+"btnAddUser":{"type":"xpath","value":"//button[text()=' Add ']","wait":10},
+"cboUserRole":{"type":"xpath","value":"//label[text()='User Role']/parent::div/following-sibling::div/div","wait":10},
+"lstAdminRole":{"type":"xpath","value":"//div[contains(@class,'oxd-select-dropdown')]//span[text()= 'Admin']","wait":10},
+"txtEmployeeName":{"type":"xpath","value":"//label[text()='Employee Name']/parent::div/following-sibling::div//input","wait":10},
+"lblEmployeeNameSuggestion":{"type":"xpath","value":"//div[contains(@class, 'autocomplete-dropdown')]","wait":10},
+"cboUserStatus":{"type":"xpath","value":"//label[text()='Status']/parent::div/following-sibling::div/div","wait":10},
+"lstUserEnabled":{"type":"xpath","value":"//div[contains(@class,'oxd-select-dropdown')]//span[text()= 'Enabled']","wait":10},
+"txtUsername":{"type":"xpath","value":"//label[text()='Username']/parent::div/following-sibling::div//input","wait":10},
+"txtPassword":{"type":"xpath","value":"//label[text()='Password']/parent::div/following-sibling::div//input","wait":10},
+"txtConfirmPassword":{"type":"xpath","value":"//label[text()='Confirm Password']/parent::div/following-sibling::div//input","wait":10},
+"btnSave":{"type":"xpath","value":"//button[text()=' Save ']","wait":10},
+"txtSearchUsername":{"type":"xpath","value":"//div[@class='oxd-table-filter']//label[text()='Username']/parent::div/following-sibling::div//input","wait":10},
+"btnSearchUser":{"type":"xpath","value":"//button[text()=' Search ']","wait":10},
+"lblSearchResult":{"type":"xpath","value":"//span[text()='(1) Record Found']","wait":10}
+}

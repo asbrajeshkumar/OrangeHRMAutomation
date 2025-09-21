@@ -1,0 +1,3 @@
+{
+"lblDashboard":{"type":"xpath","value":"//h6[text()='Dashboard']","wait":5}
+}

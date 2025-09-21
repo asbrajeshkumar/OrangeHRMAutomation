@@ -1,0 +1,4 @@
+{
+"btnProfileIcon":{"type":"xpath","value":"//span[@class='oxd-userdropdown-tab']","wait":5},
+"btnLogout":{"type":"xpath","value":"//li/a[text()='Logout']","wait":5}
+}

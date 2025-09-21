@@ -1,0 +1,7 @@
+{
+"lblUsername":{"type":"xpath","value":"//div[@class='orangehrm-login-error']//p[1]","wait":15},
+"lblPassword":{"type":"xpath","value":"//div[@class='orangehrm-login-error']//p[2]","wait":15},
+"txtUsername":{"type":"xpath","value":"//input[@placeholder='Username']","wait":5},
+"txtPassword":{"type":"xpath","value":"//input[@placeholder='Password']","wait":5},
+"btnSubmit":{"type":"xpath","value":"//button[@type='submit']","wait":5}
+}
