@@ -6,6 +6,7 @@ import framework.BasePage;
 import framework.api.IWDriver;
 import framework.or.OrStructure;
 import framework.or.Structure;
+import utility.ConfigManager;
 import utility.LogUtil;
 
 public class LoginPage extends BasePage{
@@ -40,8 +41,10 @@ public class LoginPage extends BasePage{
 	
 	public void login() {
 		iDriver.info("Login process initiated.", false);
-		String username = elem.getText(lblUsername);
-		String password = elem.getText(lblPassword);
+//		String username = elem.getText(lblUsername);
+		String username = ConfigManager.getProps().getProperty("ORANGEHRM.USER");
+//		String password = elem.getText(lblPassword);
+		String password = ConfigManager.getProps().getProperty("ORANGEHRM.PASSWORD");
 		iDriver.info("login user: ["+username.substring(11)+"]", false);
 		elem.sendKeys(txtUsername, username.substring(11));
 		elem.sendKeys(txtPassword, password.substring(11));
